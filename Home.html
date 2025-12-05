@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title> Home</title>
+		<meta charset = "UTF-8">
+		<meta name = "Group 9" content = "HTML, CSS, Javascript">
+		<meta name = "Cryshiel G. Yuson" content = "Member 1">
+		<meta name = "Lorenzo S. Parinas" content = "Member 2">
+		<meta name = "Aisyah Anela Dumdumaya" content = "Member 3">
+		<meta name = "members" content = "December 05, 2025">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.cdnfonts.com/css/anton" rel="stylesheet">
+		<link href="https://fonts.cdnfonts.com/css/source-code-pro" rel="stylesheet">
+                
+		<style>
+
+			body{
+			
+				background-color: #f4eed9;
+				overflow-x: hidden;
+			}
+			
+			img{
+			
+				position: absolute; 
+				width: 1270px; 
+				height: 800px; 
+				opacity: 0.49; 
+				margin-top: -50px;
+				z-index: 1;
+				background: linear-gradient(to right, #002437, #02334d, #074e74, #1076ad); 
+			}
+			
+			footer img{
+			
+				position: absolute;
+				width: 30px;
+				height: 30px;
+				margin-top: 0px;
+				z-index: 1;
+				opacity: 1;
+			}
+			
+			.section1 img:nth-of-type(1){
+			
+				width: 480px;
+				height: 480px;
+				opacity: 1;
+				margin-left: 200px;
+				margin-top: -540px;
+				
+			}
+			
+			.section2 img:nth-of-type(1){
+			
+				width: 200px;
+				height: 200px;
+				opacity: 1;
+				margin-left: 100px;
+				margin-top: 155px;
+				transform: translateY(50px);
+				
+			}
+			
+			.section2 img:nth-of-type(2){
+			
+				width: 200px;
+				height: 200px;
+				opacity: 1;
+				margin-left: 550px;
+				margin-top: 160px;
+				transform: translateY(50px);
+				
+			}
+			
+			.section2 img:nth-of-type(3){
+			
+				width: 200px;
+				height: 200px;
+				opacity: 1;
+				margin-left: 1000px;
+				margin-top: 160px;
+				transform: translateY(50px);
+				
+			}
+			
+			.headerback{
+			
+				background-color: #c4b775; 
+				width: 1270px; 
+				height: 150px; 
+				position: absolute; 
+				margin-left: -10px; 
+				margin-top: -950px;
+				z-index: 3;
+				
+			}
+			
+			.headerfront{
+			
+				background: linear-gradient(to right, #9b9264, #c4b775); 
+				width: 1140px; 
+				height: 90px; 
+				position: absolute; 
+				border-radius: 200px 0px 0px 0px; 
+				margin-top: -890px; 
+				margin-left: 120px;
+				z-index: 3;
+				
+			}
+			
+			.imgbackground{
+			
+				background: linear-gradient(to right, #002437, #02334d, #074e74, #1076ad); 
+				width: 1270px; 
+				height: 750px; 
+				margin-top: 160px; 
+				margin-left: -10px;
+				transform: translateY(-50px);
+				
+			}
+			
+			p{
+			
+				font-family: Anton;
+				position: absolute;
+				z-index: 10;
+				color: white;
+				font-size: 40px;
+				
+			}
+			
+			a{
+			
+				font-family: Anton;
+				position: absolute;
+				z-index: 10;
+				color: white;
+				font-size: 40px;
+				text-decoration: none;
+				
+			}
+			
+			header a:nth-of-type(1) {
+			
+				margin-left: 500px;
+				margin-top: -875px;
+			}
+			
+			header a:nth-of-type(2) {
+			
+				margin-left:755px;
+				margin-top: -875px;
+			}
+			
+			header a:nth-of-type(3) {
+			
+				margin-left: 625px;
+				margin-top: -875px;
+				
+			}
+
+			header a:nth-of-type(4) {
+			
+				margin-left: 930px;
+				margin-top: -875px;
+				
+			}
+
+			header a:nth-of-type(5) {
+			
+				margin-left: 1060px;
+				margin-top: -875px;
+				
+			}
+			
+			header p:nth-of-type(1){
+			
+				margin-top: -650px;
+				margin-left: 30px;
+				font-family: Anton;
+				font-size: 70px;
+				position: absolute;
+				z-index: 5;
+				width: 700px;
+				color: white;
+			
+			}
+			
+			header p:nth-of-type(2){
+			
+				margin-top: -340px;
+				margin-left: 30px;
+				font-family: 'Source Code Pro', sans-serif;   
+				font-weight: bold;
+				font-size: 15px;
+				position: absolute;
+				z-index: 5;
+				width: 800px;
+				color: white;
+				margin-left: 30px;
+			
+			}
+			
+			.section1 p:nth-of-type(1){
+			
+				font-size: 50px;
+				font-family: Anton;
+				color: #195566;
+				position: absolute;
+				margin-top: -610px;
+				margin-left: 540px;
+				
+			}
+			
+			.section1 p:nth-of-type(2){
+			
+				font-size: 21px;
+				font-family: 'Source Code Pro', sans-serif;
+				color: #195566;
+				width: 515px;
+				position: absolute;
+				margin-top: -520px;
+				margin-left: 710px;
+				
+			}
+			
+			.section1 p:nth-of-type(3){
+			
+				height: 50px;
+				justify-content: center;
+				align-items: center;
+				width: 170px;
+				border: 2px solid #195566;
+				border-radius: 20px;
+				color: #195566;
+				font-size: 30px;
+				font-family: Anton;
+				margin-left: 700px;
+				margin-top: -80px;
+			}
+			
+			.section2 p:nth-of-type(1){
+			
+				font-size: 70px;
+				font-family: Anton;
+				color: white;
+				position: absolute;
+				margin-top: 95px;
+				margin-left: 450px;
+				
+			}
+			
+			.section2 p:nth-of-type(2){
+			
+				font-size: 13px;
+				font-family: 'Source Code Pro', sans-serif;
+				color: white;
+				width: 150px;
+				position: absolute;
+				margin-top: 360px;
+				margin-left: 80px;
+				text-align: left;
+			}
+			
+			.section2 p:nth-of-type(3){
+			
+				font-size: 11px;
+				font-family: 'Source Code Pro', sans-serif;
+				color: white;
+				width: 150px;
+				position: absolute;
+				margin-top: 360px;
+				margin-left: 570px;
+				text-align: center;
+			}
+			
+			.section2 p:nth-of-type(4){
+			
+				font-size: 10.5px;
+				font-family: 'Source Code Pro', sans-serif;
+				color: white;
+				width: 150px;
+				position: absolute;
+				margin-top: 360px;
+				margin-left: 1065px;
+				text-align: right;
+				
+			}
+			
+			footer a:nth-of-type(6){
+			
+				margin-left: 10px;
+				margin-top: 675px;
+				
+			}
+			
+			footer a:nth-of-type(7){
+			
+				margin-left: 130px;
+				margin-top: 675px;
+				
+			}
+			
+			footer a:nth-of-type(8){
+			
+				margin-left: 305px;
+				margin-top: 675px;
+				
+			}
+			
+			footer a:nth-of-type(9){
+			
+				margin-left: 435px;
+				margin-top: 675px;
+				
+			}
+			
+			footer a:nth-of-type(10){
+			
+				margin-left: 565px;
+				margin-top: 675px;
+				
+			}
+			
+			footer p:nth-of-type(1){
+			
+				margin-left: 1000px;
+				margin-top: 700px;
+				font-size: 23px;
+				
+			}
+			
+			footer p:nth-of-type(2){
+			
+				margin-left: 220px;
+				margin-top: 745px;
+				font-size: 22px;
+				
+			}
+			
+			ul{
+			
+				margin-left: 220px;
+				margin-top: 775px;
+				font-size: 10px;
+				position: absolute;
+				font-family: 'Source Code Pro', sans-serif;
+				width: 300px;
+				color: white;
+			}
+				
+			footer p:nth-of-type(3){
+			
+				margin-left: 490px;
+				margin-top: 745px;
+				font-size: 22px;
+				
+			}
+			
+			ol{
+			
+				margin-left: 490px;
+				margin-top: 775px;
+				position: absolute;
+				color: white;
+				font-size: 10.5px;
+				font-family: 'Source Code Pro', sans-serif;
+				width: 450px;
+				
+			}
+			
+			header a:hover:not(:nth-of-type(n+6)){
+			
+				text-decoration: underline;
+				 color:  #72BCD4;
+				 transform: scale(0.7);
+				 cursor: pointer;
+			}
+			
+			footer a:nth-of-type(n+6):hover{
+			
+			text-decoration: underline;
+			color:  #72BCD4;
+			transform: scale(0.7);
+			cursor: pointer;
+			
+			}
+			
+			footer a:hover:not(:nth-of-type(n+6)){
+			
+			transform: scale(1.5);
+			
+			}
+			
+			.searchbar{
+				
+				position: absolute;
+				width: 250px;
+				height: 40px;
+				align-items: center;
+				background: white;
+				border-radius: 25px;
+				padding: 8px 15px;
+				border: 2px solid black;
+				margin-top: -875px;
+				margin-left: 200px;
+				z-index: 10;
+				
+				}
+
+			.searchbar input {
+			
+				border: none;
+				background: none;
+				font-size: 18px;
+				color: black;
+				font-family: Anton;
+				outline: none;
+				
+				}
+				
+				
+			.wave{
+			
+				position: absolute;
+				margin-top: -420px;
+				margin-left: -7px;
+				width: 650px;
+				height: 30px;
+				z-index: 3;
+				border-radius: 0px 30px 30px 0px;
+				background-color: #c4b775;
+			}
+			
+			.bluebox{
+				
+				width: 400px;
+				height: 600px;
+				margin-top: 30px;
+				margin-left: 50px;
+				
+			}
+			
+			section .bluebox:nth-of-type(1){
+			
+			background: linear-gradient(to bottom, #226d82, #237086, #195566);
+			
+			}
+			
+			section .bluebox:nth-of-type(2){
+			
+			background: linear-gradient(to top, #226d82, #237086, #195566);
+			margin-top: -600px;
+			margin-left: 120px;
+			
+			}
+			
+			.brownbox1{
+			
+				width: 180px;
+				height: 140px;
+				
+				}
+				
+			.section2 .brownbox1:nth-of-type(1){
+				
+				background: linear-gradient(to right, #a9a073, #a69e73, #bbae6c);
+				margin-top: 300px;
+				margin-left: 70px;
+				z-index: 3;
+				position: absolute;
+				transform: translateY(50px);
+				}
+				
+			.section2 .brownbox1:nth-of-type(2){
+				
+				background: linear-gradient(to bottom, #a9a073, #a69e73, #bbae6c);
+				margin-top: 300px;
+				margin-left: 560px;
+				position: absolute;
+				z-index: 3;
+				transform: translateY(50px);
+				}
+				
+			.section2 .brownbox1:nth-of-type(3){
+				
+				background: linear-gradient(to left, #a9a073, #a69e73, #bbae6c);
+				margin-top: 300px;
+				margin-left: 1050px;
+				position: absolute;
+				z-index: 3;
+				transform: translateY(50px);
+				}
+			
+			.imgback2{
+			
+				background: linear-gradient(to right, #9b9264, #c4b775);
+				width: 1270px;
+				height: 250px;
+				margin-top: 100px;
+				margin-left: -8px;
+				position: absolute;
+			}
+			
+			footer a:nth-of-type(1){
+			
+				margin-top: 765px;
+				margin-left: 990px;
+				width: 35px;
+				height: 30px;
+				opacity: 1;
+				}
+
+				footer a:nth-of-type(2){
+			
+				margin-top: 765px;
+				margin-left: 1050px;
+				width: 35px;
+				height: 30px;
+				opacity: 1;
+				}
+				
+				footer a:nth-of-type(3){
+			
+				margin-top: 765px;
+				margin-left: 1105px;
+				width: 35px;
+				height: 30px;
+				opacity: 1;
+				}
+				
+				footer a:nth-of-type(4){
+			
+				margin-top: 765px;
+				margin-left: 1160px;
+				width: 35px;
+				height: 30px;
+				opacity: 1;
+				}
+				
+				footer a:nth-of-type(5){
+			
+				margin-top: 765px;
+				margin-left: 1210px;
+				width: 35px;
+				height: 30px;
+				opacity: 1;
+				}
+			
+			.footerback{
+			
+					background: linear-gradient(to right, #9b9264, #c4b775);
+					width: 1270px;
+					height: 290px;
+					margin-top: 670px;
+					margin-left: -8px;
+					position: absolute;
+				}
+			
+			.line{
+				
+				width: 950px;
+				height: 3px;
+				margin-top: 740px;
+				margin-left: -7px;
+				background-color: #cdc9b0;
+				position: absolute;
+				z-index: 3;
+			}
+			
+			.barrier{
+			
+				width: 4px;
+				height: 15px;
+				margin-top: 734px;
+				margin-left: 940px;
+				background-color: #cdc9b0;
+				position: absolute;
+				z-index: 3;
+			}
+			
+			.socials{
+			
+				background: linear-gradient(to top, #a9a073, #a69e73, #bbae6c);
+				width: 300px;
+				height: 75px;
+				margin-top: 745px;
+				margin-left: 961px;
+				position: absolute;
+				border-radius: 50px 0 0 50px;
+			}
+				
+			table{
+			
+			
+				color: white;
+				border: 3px solid white;
+				position: absolute;
+				margin-left: 0px;
+				margin-top: 730px;
+				width: 1200px;
+				transform: scaleY(0.4);
+				font-family: Anton;
+			}
+			
+			tr, th, td{
+			
+				border: 3px solid white;
+			
+			}
+		</style>
+
+	</head>
+	<body>
+		
+		
+		<header>
+		
+			
+			<div class = "imgbackground">
+				<img src = "images\imag.png"></img>
+			</div>
+		
+			<div class = "headerback"></div>
+			<div class = "headerfront"></div>
+			
+			<div class="searchbar">
+				<input type="text" placeholder="Search...">
+			</div>
+			
+		</header>
+		
+		<header>
+			
+			<a href = "Home.html"> HOME </a>
+			<a href = "Problems.html"> PROBLEM </a>
+			<a href = "About.html"> ABOUT </a>
+			<a href = "Goals.html"> GOALS </a>
+			<a href = "Conclude.html"> CONCLUDE </a>
+			
+			<p> The Role of Citizens in Waste Pollution </p>
+			<div class = "wave"></div>
+			<p> Waste pollution is one of the most concerning problems in today's society. Everyday, our 
+				environment slowly deteriorates as a result of the collective action of not throwing trash in their designated areas.
+				This has heavily contributed to the effect of Climate Change. However, we the citizens have the power to stop this calamity.
+				By working together to spread action and awareness, we can minimize the effects of Waste pollution and build a brighter future
+				for the next generations. You can help stop Waste pollution whether it be from simple actions like segregating your garbage to 
+				bigger actions like advocating about the effects of waste that is not properly disposed of. As citizens, each and every choice
+				we make has ability, strength, and power. That's why we should stay mindful of what we do.</p>
+				
+		</header>
+			
+		<section class = "section1">
+			
+			<div class = "bluebox"></div>
+			<div class = "bluebox"></div>
+			<img src = "images\truck1.png"></div>
+			
+			<p> WHAT WE ADVOCATE FOR </p>
+			<p> We are advocating about the importance of proper Waste management. Our wish is to aide in the fight against pollution and climate change.
+			Every citizen has a role in the environment, and this should be made known to all so that individuals may learn to be more mindful of
+			every action they make. Actions such as segregating trash, community service, and more all play key roles in making our society better.
+			Environment accountability is a must, and by embracing accountability and empowering each other to care about the our surroundings, we can 
+			build a clean world that we are proud to live in.</p>
+			
+		</section>
+		
+		<section class = "section2">
+		
+			<img src = "images\trash1.png"></div>
+			<div class = "brownbox1"></div>
+			<img src = "images\trash2.png"></div>
+			<div class = "brownbox1"></div>
+			<img src = "images\trash3.png"></div>
+			<div class = "brownbox1"></div>
+			
+			<p> Main Concepts </p>
+			<p> Waste Management is important because it allows for citizens to observe cleanliness and help the environment. </p>
+			<p> Pollution Awareness exists in order to let people know what kind of threat they are facing. This helps shape other people's
+			mindset in order to aide in the protection of our environment.</p>
+			<p> Empathy is the key to consistent efforts in environment protection. This concept allows people to love and care for the environment which
+			may help individuals do more than what they are expected to do.</p>
+			<div class = "imgback2"></div>
+		</section>
+		
+		<footer>
+			
+			<div class = "footerback"></div>
+			<div class = "line"></div>
+			<div class = "socials"></div>
+			<div class = "barrier"></div>
+			
+			<a href = "https://youtube.com/@forevergone1?si=u7S9vAmVJuQXJC3X"><img src = "images\youtube.png"></img></a>
+			<a href = "https://ph.pinterest.com/xxs4r/?invite_code=59f057935cc84537b59fbadae7936142&sender=1043920526034328989"><img src = "images\pinterest.png"></img></a>
+			<a href = "https://www.instagram.com/cryshiiee.y?igsh=NHBrbndxb3YzZmE5&utm_source=qr"><img src = "images\ig.png"></img></a>
+			<a href = "https://www.facebook.com/cryshielgeneralao.yuson"><img src = "images\facebook.png"></img></a>
+			<a href = "https://x.com/tvgirllove78744?s=21&fbclid=IwY2xjawOft-pleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAEwAAEehmdqyHslCpGW8AdzVQ93-mRDcIIkqkyQqioMRXny7qiOC1v_6bi51Lh9rZs_aem_xtY7Nt7-Wc_H7h-hEvtKhQ"><img src = "images\X.png"></img></a>
+			
+			<a href = "Home.html"> HOME </a>
+			<a href = "Problems.html"> PROBLEM </a>
+			<a href = "About.html"> ABOUT </a>
+			<a href = "Goals.html"> GOALS </a>
+			<a href = "Conclude.html"> CONCLUDE </a>
+			
+			<p> FOLLOW US TO GET UPDATES! </p>
+			<p> TALK TO US </p>
+			<ul>
+			<li>09482180460 cyuson@crc.pshs.edu.ph </li>
+			<li>lparinas2029@crc.pshs.edu.ph</li>
+			<li>adumdumaya2029@crc.pshs.edu.ph</li>
+			</ul> 
+			
+			<p> COPYRIGHT </p>
+			
+			<ol>
+			<li>© 2025 Philippine Science Highschool Caraga Region Campus in Butuan City. All materials are for educational purposes only.</li>
+			<li>© 2025 Philippine Science High School – CRCBXU. All Rights Reserved.</li>
+			</ol>
+			
+			<table border = "1" cellpadding="10" cellspacing="0">
+				<tr>
+					<th>Section</th>
+					<th>Content</th>
+				</tr>
+				<tr>
+					<td>HOME</td>
+					<td>Introduction to waste management and pollution</td>
+				</tr>
+				<tr>
+					<td>ABOUT</td>
+					<td>How waste management needs to be controlled by caring for the environment, spreading awareness, recycling, reusing and reducing, segregating waste, and more to create a better society.</td>
+				</tr>
+				<tr>
+					<td>PROBLEM</td>
+					<td>Insufficient participation, resistance to change, and lack of funding.</td>
+				</tr>
+				<tr>
+					<td>GOAL</td>
+					<td>Create a bacteria-free world where people are aware and responsible.</td>
+				</tr>
+				<tr>
+					<td>CONCLUDE</td>
+					<td>Summary of the above points.</td>
+				</tr>
+			</table>
+		</footer>
+	</body>
+	
+	
+</html>
+
